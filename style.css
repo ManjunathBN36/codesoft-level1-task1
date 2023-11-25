@@ -1,0 +1,334 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    /* background-image:url(backgroud.jpg); */
+    color: white;
+}
+html{
+    font-size: 62.5%;
+}
+@media(max-width:998px){
+    html{
+        font-size: 55%;
+    }
+}
+@media(max-width:768px){
+    html{
+        font-size: 45%;
+    }
+}
+@media(max-width:400px){
+    html{
+        font-size: 30%;
+    }
+}
+@media(max-width:450px){
+    html{
+        font-size: 33%;
+    }
+    /* .navbar{
+        height: 8rem;
+    } */
+}
+.navbar{
+    width: 100%;
+    height: 6rem;
+    background-color:rgb(36, 32, 32);
+    color: white;
+    display: flex;
+    position: fixed;
+    /* flex-wrap: wrap; */
+}
+.logo{
+    height: 4rem;
+    width: 40rem;
+    padding-top: 1rem;
+    padding-left: 3rem;
+}
+span{
+    color: yellow;
+}
+.two{
+    width:70rem;
+    height: 4rem;
+    padding-top: 1.8rem;
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+a{
+    /* padding-right: 2rem; */
+    cursor: pointer;
+    text-decoration: none;
+}
+a:hover{
+    color: yellow;
+}
+.three{
+    font-size: 2rem;
+    padding-top: 1.8rem;
+    cursor: pointer;
+}
+.four{
+    width: 6rem;
+    height: 2.3rem;
+    padding-top: .5rem; 
+    margin-top: 1.5rem;
+    margin-left: 6rem;
+    border: .2rem solid white;
+    border-radius: 10%;
+    font-size: 1.5rem;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    background-image: url(backgroud.jpg);
+    background-size:contain;
+}
+.menu{
+    font-size: 1.5rem;
+}
+.par{
+    padding-top: 10rem;
+    /* padding-left: 30rem; */
+    font-size: 5rem;
+    display: flex;
+    justify-content: center;
+   
+}
+button{
+    width: 15rem;
+    background-color: yellow;
+    border: none;
+    border-radius: 1.5rem;
+    color: black;
+    font-size: 3rem;
+    cursor: pointer;
+    /* margin-left: 1rem;  */
+}
+.img{
+    height: 30rem;
+    width: 30rem;
+    
+    background-image: url(food1.jpg);
+    background-size: cover;
+    border: .2rem solid transparent;
+    border-radius: 50%;
+}
+.fo1{
+    height: 22rem;
+    width: 22rem;
+    background-color: rgb(26, 16, 4);
+   
+    margin-top: 1rem;
+}
+.pi{
+    background-color: rgb(45, 40, 40);
+    height: 20rem;
+    width: 20rem;
+    margin-left: 1rem;
+    border: .1rem solid transparent;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image1{
+    width: 18rem;
+    height: 19rem;
+    background-image: url(food2.jpg);
+    background-size: cover;
+    border: .1rem solid transparent;
+    border-radius: 50%;
+}
+h1{
+    padding-top: 5rem;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+}
+.m1{
+    /* width: 100%; */
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.image2{
+    width: 18rem;
+    height: 19rem;
+    background-image: url(food3.jpeg);
+    background-size: cover;
+    border: .1rem solid transparent;
+    border-radius: 50%;
+}
+.image3{
+    width: 18rem;
+    height: 19rem;
+    background-image: url(food4.jpg);
+    background-size: cover;
+    border: .1rem solid transparent;
+    border-radius: 50%;
+}
+.image4{
+    width: 18rem;
+    height: 19rem;
+    background-image: url(food5.jpeg);
+    background-size: cover;
+    border: .1rem solid transparent;
+    border-radius: 50%;
+}
+.image5{
+    width: 18rem;
+    height: 19rem;
+    background-image: url(food6.jpg);
+    background-size: cover;
+    border: 0.1rem solid transparent;
+    border-radius: 50%;
+}
+.seller1{
+    height: 30rem;
+    width: 25rem;
+    background-color: rgb(26, 16, 4); ;
+    font-size: 1.5rem;
+}
+.image6{
+    height: 20rem;
+    width: 23rem;
+    background-image: url(food7.jpeg);
+    background-size: cover;
+    
+    padding-bottom: 2rem;
+    border: 0.1rem solid transparent;
+    border-radius: 50%;
+}
+.seller{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.image7{
+    height: 20rem;
+    width: 23rem;
+    background-image: url(food8.jpg);
+    background-size: cover;
+   
+    padding-bottom: 2rem;
+    border: 0.1rem solid transparent;
+    border-radius: 50%;
+}
+.image8{
+    height: 20rem;
+    width: 23rem;
+    background-image: url(food9.jpeg);
+    background-size: cover;
+   
+    padding-bottom: 2rem;
+    border: .1rem solid transparent;
+    border-radius: 50%;
+}
+.image9{
+    height: 20rem;
+    width: 23rem;
+    background-image: url(food10.webp);
+    background-size: cover;
+   
+    padding-bottom: 2rem;
+    border: .1rem solid transparent;
+    border-radius: 50%;
+}
+.co{
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+}
+.co1{
+    text-align: center;
+}
+h5{
+    font-size: 3.5rem;
+    font-weight: 100;
+}
+h2{
+    font-size: 4.5rem;
+}
+.pho1{
+    margin-top: 5rem;
+    
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}
+.pho{
+    display: flex;
+    justify-content: center;
+}
+.del{
+    width: 35rem;
+    height: 40rem;
+    background-image: url(del.png);
+    background-size: cover;
+    margin-left: 4rem;
+    margin-top: 2rem;
+}
+.del2{
+    width: 50rem;
+    height: 40rem;
+    background-image: url(del2.png);
+    background-size: cover;
+    margin-left: 4rem;
+    margin-top: 2rem;
+}
+.pho2{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+}
+.del3{
+    margin-top: 2rem;
+    width:100%;
+    height: 45rem;
+    background-image: url(del3.png);
+    background-size: cover;
+
+}
+.rev{
+    
+    height: 45rem;
+    margin-top: 2rem;
+    background-image: url(rev.png);
+    background-size: cover;
+}
+.con{
+   width: 100%;
+   height: 40rem; 
+   display: flex;
+   justify-content: center;
+}
+.con1{
+    height: 30rem;
+    width: 30rem;
+    background-image:url(con1.png) ;
+    background-size: cover;
+    margin-right: 3rem;
+}
+.con2{
+    height: 30rem;
+    width: 30rem;
+    background-image:url(con2.png) ;
+    background-size: cover;
+}
+footer{
+    height: 100%;
+    width: 100%;
+    background-color: yellow;
+    text-align: center;
+
+}
+.foot{
+    font-size: 12rem;
+    color: black;
+    
+}
+.i{
+    margin-right:.5rem
+}
